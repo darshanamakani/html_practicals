@@ -1,37 +1,47 @@
 <html>
-    <head>
-        <title>table tag</title>
-    </head>
-    <body>
-        <table rows="4" cols="4" border="2">
-           
-            <tr>
-                <th>rollno</th>
-                <th>Sname</th>
-                <th>Saddress</th>
-                <th>percentage</th>
-            </tr>
-
-
-           <tr>
-                <td>101</td>
-                <td>AAA</td>
-                <td>A1</td>
-                <td>80%</td>
-           </tr>
-          
-         <tr>
-            <td>102</td>
-            <td>BBB</td>
-            <td>B1</td>
-            <td>80%</td>
+<head>
+    <title>table tag</title>
+</head>
+<body>
+    <table rows="9" cols="4" border="2">
+        <tr>
+            <th colspan="4">Student Information</th>
         </tr>
         <tr>
-            <td>103</td>
-            <td>CCC</td>
-            <td>C1</td>
-            <td>80%</td>
+            <th>Sname</th>
+            <th>Saddress</th>
+            <th>Class</th>
+            <th>Percentage</th>
         </tr>
-        </table>
-    </body>
+        <tr>
+            <td>A1</td>
+            <td>aaa</td>
+            <td rowspan=3>BCA</td>
+            <td>75%</td>
+        </tr>
+        <tr>
+            <td>B1</td>
+            <td>bbb</td>
+            <td>75%</td>
+        </tr>
+        <tr>
+            <td>C1</td>
+            <td>ccc</td>
+            <td>75%</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>aaa</td>
+            <td rowspan="2">mca</td>
+            <td>75%</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>aaa</td>
+            <td>75%</td>
+        </tr>
+
+
+    </table>
+</body>
 </html>
